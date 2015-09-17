@@ -5,7 +5,7 @@ Create interactive thematic maps and geovisualizations.
 * <https://github.com/tillnagel/unfolding>
  
 Updated for Processing 3.0 beta 5. 
-Download here: [[https://github.com/potioc/unfolding/releases/download/v0.9.7/Unfolding.tgz]]
+Download here: https://github.com/potioc/unfolding/releases/download/v0.9.7/Unfolding.tgz
 
 Compilation : 
 
