@@ -3,6 +3,20 @@ Create interactive thematic maps and geovisualizations.
 
 * <http://unfoldingmaps.org/>
 * <https://github.com/tillnagel/unfolding>
+ 
+Updated for Processing 3.0 beta 5. 
+Download here: https://github.com/potioc/unfolding/releases/download/v0.9.7/Unfolding.tgz
+
+Compilation : 
+
+``` bash
+mvn install 
+mvn javadoc:javadoc
+sh createLibrary.sh
+```
+
+Updated version for Processing 3.
+
 
 ## About
 ### Interaction Events
@@ -54,5 +68,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
-
-
