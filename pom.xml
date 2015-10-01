@@ -11,7 +11,7 @@
         <sourceDirectory>src</sourceDirectory>
         <testSourceDirectory>test</testSourceDirectory>
         <plugins>
-            
+
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
@@ -30,7 +30,7 @@
                     </execution>
                 </executions>
             </plugin>
-            
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -82,67 +82,67 @@
             <artifactId>core</artifactId>
             <version>3.0</version>
         </dependency>
-    
-    
+
+
         <dependency>
-            <groupId>gluegen-rt</groupId>  
-            <artifactId>gluegen-rt</artifactId>  
-            <version>3.0</version>   
+            <groupId>gluegen-rt</groupId>
+            <artifactId>gluegen-rt</artifactId>
+            <version>3.0</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/gluegen-rt.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>jogl-all</groupId>  
-            <artifactId>jogl-all</artifactId>  
-            <version>3.0</version>   
+            <groupId>jogl-all</groupId>
+            <artifactId>jogl-all</artifactId>
+            <version>3.0</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/jogl-all.jar</systemPath>
         </dependency>
-        
+
         <dependency>
-            <groupId>json4processing</groupId>  
-            <artifactId>json4processing</artifactId>  
-            <version>1.0</version>   
+            <groupId>json4processing</groupId>
+            <artifactId>json4processing</artifactId>
+            <version>1.0</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/json4processing.jar</systemPath>
         </dependency>
-        
+
         <dependency>
-            <groupId>sqlite-jdbc</groupId>  
-            <artifactId>sqlite-jdbc</artifactId>  
-            <version>1.0</version>   
+            <groupId>sqlite-jdbc</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>1.0</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/sqlite-jdbc-3.7.2.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>  
-            <artifactId>log4j</artifactId>  
-            <version>1.0</version>   
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.0</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib-processing/log4j-1.2.15.jar</systemPath>
         </dependency>
-        
+
         <dependency>
-            <groupId>libTUIO</groupId>  
-            <artifactId>libTUIO</artifactId>  
-            <version>1.0</version>   
+            <groupId>libTUIO</groupId>
+            <artifactId>libTUIO</artifactId>
+            <version>1.0</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/libTUIO.jar</systemPath>
         </dependency>
-        
+
         <dependency>
             <groupId>org.processing</groupId>
             <artifactId>core</artifactId>
-            <version>3.0b6</version>
+            <version>3.0</version>
         </dependency>
-        
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
-        
+
         <dependency>
             <groupId>handy</groupId>
             <artifactId>handy</artifactId>
@@ -179,7 +179,7 @@
             <systemPath>${project.basedir}/lib-extern/joda-time-2.0.jar</systemPath>
         </dependency>
     </dependencies>
-    
+
     <properties>
         <netbeans.hint.license>license</netbeans.hint.license>
     </properties>
